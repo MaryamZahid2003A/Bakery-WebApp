@@ -1,0 +1,862 @@
+body{
+    overflow-x:hidden;
+    background-color: antiquewhite;
+    padding:0;
+    margin:0;
+}
+#container{
+    display:flex;
+}
+#menu_btn{
+    margin-left:2%;
+    cursor:pointer;
+    
+}
+#main-menu{
+    display:flex;
+    flex-wrap:nowrap;
+}
+#main-menu-img{
+    display:flex;
+    flex-direction:column;
+    margin-left:5%;
+    margin-right:3%;
+    
+
+}
+#prev-btn,#next-btn{
+    margin-top:20%;
+    cursor:pointer;
+}
+#hide-menu{
+    background-color: lightgray;  
+    display:none;
+ 
+}
+#hamburg-btn{
+    display:none;
+}
+#close-btn{
+    cursor: pointer;
+    margin-left:95%;
+}
+.menu-display{
+    text-decoration: none;
+    color:black;
+    font-size: 1.2vw;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:100;
+    margin-top:10px;
+    padding:10px;
+}
+.menu-display:hover,.menu-display:focus{
+    text-decoration: none;
+    color:white;
+    background-color: gray;
+    border-radius:10px;
+    font-size: 1.2vw;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:100;
+    padding:10px;
+    margin-top:10px;
+    transition:all 2s;
+    cursor:pointer;
+}
+
+
+#logo-tehzeeb{
+    min-height:100px;
+    max-width:200px;
+    padding-left:45%;
+}
+#logo{
+    min-height:100px;
+    max-width:200px;
+}
+#menu-links{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-left:30%;
+    padding-right:30%;
+    min-height:100px;
+    cursor: pointer;
+}
+
+.menu{
+    text-decoration: none;
+    color:black;
+    font-size: 1.2vw;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:100;
+    
+}
+.menu:hover{
+    background-color:rgb(180, 62, 84);
+    text-decoration: none;
+    width:60px;
+    color:white;
+    font-size: 1.2vw;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:100;
+    padding:10%;
+    border-radius:10px;
+    transition:all 2s;
+    
+}
+li{
+    list-style:none;
+    margin:3%;
+}
+
+/* Flip menu */
+
+
+            /* cakes */
+#cakes-menu{
+    scroll-behavior:smooth;
+    background-color:lightpink;
+    min-height:80px;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    text-align:center;
+    
+}
+.cakes{
+    color:white;
+    font-size:1.3vw;
+    text-decoration:none;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+  
+   
+}
+.cakes:hover{
+    font-size:1.3vw;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    transition:all 1s;
+    border-radius:10px;
+    padding:5px;
+    background-color:lightcoral;
+    transition:all 1s;
+}
+
+#MainHeading-3{
+    display:flex;
+    flex-wrap:wrap;
+   
+}
+
+#DryCake{
+    background-image:url("https://wallpaperaccess.com/full/5227230.png");
+    width:100%;
+    min-height:350px;
+    display:flex;
+    flex-direction:column;
+}
+#cake-img-1{
+    margin-left:30%;
+    margin-right:30%;
+    max-width:600px;
+    min-height:375px;
+}
+
+#sub-1-h1{
+    color:rgb(13, 117, 121);
+    font-family:Arial, Helvetica, sans-serif;
+ text-align:center;
+    font-size:3vw;
+}
+#sub-1-h2{
+    color:BLACK;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1.6vw;
+    text-align:center;
+}
+
+#FreshCake{
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(244, 197, 244);
+    width:100%;
+    min-height:350px;
+    
+}
+#cake-img-2{
+    margin-left:30%;
+    margin-right:30%;
+    max-width:600px;
+    min-height:375px;
+}
+
+#sub-2-h1{
+    color:rgb(140, 82, 140);
+    font-family:Arial, Helvetica, sans-serif;
+ text-align:center;
+    font-size:3vw;
+}
+#sub-2-h2{
+    color:BLACK;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1.6vw;
+    text-align:center;
+}
+#sub-3-h1{
+    color:rgb(200, 98, 60);
+    font-family:Arial, Helvetica, sans-serif;
+ text-align:center;
+    font-size:3vw;
+}
+#ButterCake{
+    background-color:rgb(255, 199, 143);
+    width:100%;
+    min-height:350px;
+    display:flex;
+    flex-direction:column;
+}
+#Mousse{
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(219, 183, 219);
+    width:100%;
+    min-height:350px;
+}
+
+#icecreamCake{
+    display:flex;
+    flex-direction:column;
+    background-color:lightpink;
+    width:100%;
+    min-height:350px;
+}
+#sub-5-h1{
+    color:rgb(204, 97, 113);
+    font-family:Arial, Helvetica, sans-serif;
+ text-align:center;
+    font-size:3vw;
+}
+#sub-4-h1{
+    color:rgb(150, 86, 150);
+    font-family:Arial, Helvetica, sans-serif;
+ text-align:center;
+    font-size:3vw;
+}
+#cake-back-top{
+   margin-top:3%;
+    margin-left:90%;
+}
+#Cakes{
+    display:none;
+}
+
+/* cakes end */
+
+/* Biscuit  */
+#RoyalBiscuit{
+   background-image:url("https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30484.jpg");
+    width:100%;
+    min-height:350px;
+    display:flex;
+    flex-direction:column;
+}
+#sub-biscuit-1-h1{
+    color:goldenrod;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+       font-size:3vw;
+}
+#sub-biscuit-1-h2{
+    color:BLACK;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:1.6vw;
+    text-align:center;
+}
+#biscuit-img{
+    margin-left:30%;
+    margin-right:30%;
+    max-width:600px;
+    min-height:375px;
+}
+#original{
+    background-color:rgb(184, 136, 143);
+    width:100%;
+    min-height:350px;
+    display:flex;
+    flex-direction:column;
+}
+#sub-biscuit-2-h1{
+    color:rgb(149, 58, 72);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size:3vw;
+}
+
+#NarrowBiscuits{
+    background-color:rgb(160, 125, 160);
+    width:100%;
+    min-height:350px;
+    display:flex;
+    flex-direction:column;
+}
+#sub-biscuit-3-h1{
+    color:rgb(81, 40, 81);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size:3vw;
+}
+#Biscuits{
+    display:none;
+}
+#RoundBiscuit{
+    background-image:url("https://e0.pxfuel.com/wallpapers/702/325/desktop-wallpaper-plain-blue-background-plain-baby-blue-background-as-for-your-mobile-tablet-explore-blue-plain-plain-plain-background-for-plain-color-light-blue-plain-thumbnail.jpg");
+    width:100%;
+    min-height:350px;
+    display:flex;
+    flex-direction:column;
+}
+#sub-biscuit-4-h1{
+    color:goldenrod;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+       font-size:3vw;
+}
+#round-biscuit-img{
+    margin-left:32%;
+    margin-right:30%;
+    max-width:550px;
+    min-height:300px;
+}
+#multi-biscuits{
+    background-color:rgb(249, 209, 215);
+   
+}
+#biscuit-collection{
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+    grid-template-rows:auto auto auto auto;
+    margin-left:10%;
+    margin-right:10%;
+    padding-top:2%;
+}
+#bisc-intro{
+    color:aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:1.2vw;
+}
+#biscuit{
+    max-width:150px;
+    min-height:85px;
+}
+
+#biscuit-heading-1{
+    padding-top:1%;
+    color:rgb(98, 46, 98);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+       font-size:3vw;
+}
+
+#biscuit-heading-2{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+       font-size:1.5vw;
+}
+#outlay-bisc{
+    background-color:rgb(140, 222, 249);
+    color:rgb(20, 66, 69);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+       font-size:3vw;
+}
+#sub-biscuit-5-h2{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1.5vw;
+}
+/* biscuits end */
+
+
+
+/* pastry start */
+#Pastry-heading-5{
+    margin-bottom:10%;
+}
+#Chocolate-Pastry{
+    background-color:rgb(255, 214, 220);
+    width:100%;
+    min-height:350px;
+    display:flex;
+    flex-direction:column;
+   
+}
+#chocolate-pastry-h1{
+    color:rgb(90, 63, 67);
+    font-size:2.5vw;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+   
+}
+
+#pastry-img{
+    margin-left:40%;
+    margin-right:30%;
+    max-width:400px;
+    min-height:280px;
+}
+#Colorful-pastry{
+    background-image:url("https://wallpapers.com/images/hd/solid-yellow-5wl2iirjhkqadgt5.jpg");
+    width:100%;
+    min-height:450px;
+    display:flex;
+    flex-direction:column;
+}
+#colorful-pastry-grid{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+ 
+}
+#Colorful-pastry-h1{
+    color:rgb(192, 10, 70);
+    font-size:2.8vw;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+#Roasted-pastry{
+   background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQch_Km-jR_VEw7vamgzuWgZ2SieFx9N8R3bg&usqp=CAU");
+   width:100%;
+   min-height:500px;
+   display:flex;
+   flex-direction:column;
+}
+#roasted-pastry-h1{
+    color:rgb(40, 64, 40);
+    font-size:2.8vw;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+#roasted-pastry-grid{
+    display:grid;
+    grid-template-columns:auto auto;
+}
+#roasted-pastry-img{
+    margin-left:40%;
+    margin-right:30%;
+    max-width:280px;
+    min-height:150px;
+}
+#frame-pastry{
+    background-color:lightblue;
+    width:100%;
+    min-height:600px;
+    display:flex;
+    flex-direction:column;
+}
+#frame-pastry-h1{
+    color:rgb(37, 57, 64);
+    font-size:2.5vw;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+#frames{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+#frame-1,#frame-2,#frame-3{
+    max-width:500px;
+    min-height:380px;
+    border:3px solid lightblue;
+    border-style:dashed;
+    background-color:antiquewhite;
+    padding:2%;
+   
+}
+#sub-image{
+    max-width:200px;
+    min-height:200px;
+}
+#frame-pastry-image-1{
+    background-color:lightblue;
+    max-width:350px;
+    min-height:270px;
+    padding:3%;
+}
+
+#frame-pastry-h2{
+    color:rgb(37, 57, 64);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1.6vw;
+    text-align:center;
+}
+
+#Pastry{
+    display:none;
+}
+/* pastry ending */
+
+
+/* pizza start */
+#beef-pizza{
+    background-color:rgb(244, 171, 36);
+    width:100%;
+    min-height:600px;
+    display:flex;
+    flex-direction:column;
+}
+
+#pizza-img{
+    margin-left:30%;
+    margin-right:30%;
+    max-width:600px;
+    min-height:380px;
+}
+#pizza-intro{
+    margin-top:18%;
+    margin-left:30%;
+    margin-right:30%;
+    background-color:rgba(208,63,19,.8);
+    font-size:1.2vw;
+    text-align:center;
+    border:3px solid rgb(44, 74, 44);
+    width:600px;
+    height:75px;
+    position:absolute;
+    
+}
+#beef-h2{
+    color:whitesmoke;
+    text-align:center;
+}
+#cheese-pizza{
+    background-color:rgb(248, 196, 189);
+    width:100%;
+    min-height:600px;
+    display:grid;
+    grid-template-columns:auto auto;
+}
+#cheese-h1{
+    color:rgb(193, 53, 53);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size:1.8vw;
+    margin-top:10%;
+}
+#cheese-h2,#multi-pizza-h1{
+    color:rgb(122, 75, 83);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size:2.3vw;
+}
+
+#multi-pizza{
+    background-color: lightblue;
+    background-repeat:no-repeat;
+    width:100%;
+    min-height:600px;
+    
+}
+#bbq-pizza{
+    background-color: beige;
+    width:100%;
+    min-height:600px;
+   
+}
+#multi-pizza-h1{
+    color:rgb(82, 40, 15);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size:2.3vw;
+}
+#multi-pizza-h2{
+    color:rgb(122, 75, 83);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size:1.5vw;
+}
+#siracha-pizza{
+    background-color:rgb(244, 171, 36);
+    width:100%;
+    min-height:600px;
+    display:flex;
+    flex-direction:column;
+}
+#siracha-pizza-h1{
+    color:rgb(131, 98, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size:2.3vw;
+}
+#siracha-pizza-h2{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size:1.6vw;
+}
+#pizza{
+    display:none;
+}
+/* Ending */
+
+
+
+#ending{
+    background-color:rgb(200, 200, 200);
+    width:100%;
+    min-height:500px;
+    margin-top:8%;
+    margin-bottom:5%;
+    display:grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows:auto;
+    justify-content:space-evenly;
+}
+#follow_us{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows:auto;
+   justify-content: space-between;
+}
+#follow-heading{
+    font-size:1.5rem;
+    font-family:'Courier New', Courier, monospace;
+}
+#follow_btn{
+    cursor:pointer;
+    justify-content:space-evenly;
+    margin:10%;
+ 
+ }
+#follow_btn:hover{
+   cursor:pointer;
+   justify-content:space-evenly;
+   margin:10%;
+   transition:all 1s;
+    border-radius:10px;
+    padding:5px;
+}
+#ending,#h2{
+    font-size:1rem;
+    font-family:'Courier New', Courier, monospace;
+}
+h3{
+    margin-left:1%;
+}
+ul{
+    font-size:1.4vw;
+}
+
+
+@media screen and (max-width:1000px){
+    #hamburg-btn{
+        display:block;
+    }
+    #menu-links{
+        display:none;
+    }
+    #biscuit-collection{
+    
+        display:grid;
+        background-color:rgb(249, 209, 215);
+        grid-template-columns:auto auto auto;
+        grid-template-rows:auto auto auto auto auto auto auto auto;
+    }
+    #pizza-img{
+        margin-left:30%;
+        margin-right:30%;
+        max-width:450px;
+        min-height:250px;
+    }
+    #beef-pizza{
+        width:100%;
+        min-height:180px;
+        display:flex;
+        flex-direction:column;
+    }
+    #cheese-pizza{
+        background-color:rgb(254, 153, 139);
+        width:100%;
+        min-height:400px;
+        display:grid;
+        grid-template-columns:auto;
+        grid-template-rows:auto;
+    }
+    #cheese-pizza-img{
+        margin-left:20%;
+        margin-right:30%;
+        max-width:450px;
+        min-height:250px;
+    }
+    #pizza-intro{
+        margin-top:18%;
+        margin-left:30%;
+        margin-right:30%;
+        background-color:rgba(208,63,19,.8);
+        font-size:1.2vw;
+        text-align:center;
+        border:3px solid rgb(44, 74, 44);
+        width:380px;
+        height:60px;
+        position:absolute;
+        
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    #cake-img-1{
+        margin-right:25%;
+        max-width:500px;
+        min-height:180px;
+    }
+    #cake-img-2{
+        margin-right:25%;
+        max-width:500px;
+        min-height:200px;
+    }
+    #FreshCake{
+        display:flex;
+    flex-direction:column;
+    background-color:rgb(244, 197, 244);
+    width:100%;
+    min-height:100px;
+    
+    }
+    #DryCake{
+        background-image:url("https://wallpaperaccess.com/full/5227230.png");
+        width:100%;
+        min-height:100px;
+        display:flex;
+        flex-direction:column;
+    }
+    #ButterCake{
+        background-color:rgb(255, 199, 143);
+        width:100%;
+        min-height:100px;
+        display:flex;
+        flex-direction:column;
+    }
+  
+    #Mousse{
+        display:flex;
+        flex-direction:column;
+        background-color:rgb(219, 183, 219);
+        width:100%;
+        min-height:100px;
+    }
+    #biscuit-img{
+        margin-right:25%;
+        max-width:500px;
+        min-height:180px;
+    }
+    #round-biscuit-img{
+        margin-right:25%;
+        max-width:500px;
+        min-height:200px;
+    }
+    #RoyalBiscuit,#original,#NarrowBiscuits,#RoundBiscuit,#outlay-bisc{
+        width:100%;
+        min-height:100px;
+        display:flex;
+        flex-direction:column;
+    }
+
+    #biscuit-collection{
+        display:grid;
+        background-color:rgb(249, 209, 215);
+        grid-template-columns:auto auto;
+        grid-template-rows:auto auto auto auto auto auto auto auto auto auto auto;
+    }
+
+    #Chocolate-Pastry,#Colorful-pastry,#Roasted-pastry,#frame-pastry{
+        width:100%;
+        min-height:120px;
+        display:flex;
+        flex-direction:column;
+    }
+    #pastry-img{
+        margin-right:25%;
+        max-width:500px;
+        min-height:180px;
+    }
+    #colorful-pastry-grid{
+        display:grid;
+        grid-template-columns:auto auto;
+        grid-template-rows:auto;
+    }
+    #roasted-pastry-img{
+      max-width:350px;
+      max-height:150px;
+    }
+    #ending{
+        background-color:rgb(200, 200, 200);
+        display:flex;
+        flex-direction:column;
+        font-size:1.3vw;
+        
+    }
+    #frame-1,#frame-2,#frame-3{
+        max-width:350px;
+        min-height:150px;
+        border:1px solid lightblue;
+        border-style:dashed;
+        background-color:antiquewhite;
+        padding:2%;
+       
+    }
+    #frame-pastry-image-1{
+        background-color:lightblue;
+        max-width:150px;
+        min-height:80px;
+        padding:3%;
+    }
+    #sub-image{
+        max-width:120px;
+        min-height:70px;
+    }
+    #beef-pizza,#multi-pizza,#bbq-pizza,#siracha-pizza{
+        width:100%;
+        min-height:120px;
+        display:flex;
+        flex-direction:column;
+    }
+    #pizza-img{
+        margin-left:30%;
+        margin-right:30%;
+        max-width:300px;
+        min-height:180px;
+    }
+    #cheese-pizza{
+        background-color:rgb(248, 196, 189);
+        width:100%;
+        min-height:280px;
+        display:grid;
+        grid-template-columns:auto;
+        grid-template-rows:auto;
+    }
+    #cheese-pizza-img{
+        margin-left:20%;
+        margin-right:30%;
+        max-width:290px;
+        min-height:170px;
+    }
+    #pizza-intro{
+        margin-top:18%;
+        margin-left:30%;
+        margin-right:30%;
+        background-color:rgba(208,63,19,.8);
+        font-size:1.2vw;
+        text-align:center;
+        border:3px solid rgb(44, 74, 44);
+        width:200px;
+        height:45px;
+        position:absolute;
+        
+    }
+    
+    
+}
